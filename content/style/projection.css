@@ -1,0 +1,115 @@
+@font-face {
+	font-family: nulshock;
+	src: url(../fonts/nulshock.ttf);
+}
+body {
+	height: 100%;
+	width: 100%;
+
+	font-family: nulshock;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bolder;
+		
+	-webkit-text-stroke: 1px #000;
+	-moz-text-stroke: 1px #000;
+	-ms-text-stroke: 1px #000;
+	-o-text-stroke: 1px #000;
+	text-stroke: 1px #000;
+
+	-webkit-text-fill-color: #fff;
+	-moz-text-fill-color: #fff;
+	-ms-text-fill-color: #fff;
+	-o-text-fill-color: #fff;
+	text-fill-color: #fff;
+
+	position: absolute;
+	
+	background-attachment: fixed;
+	background-image: url(../imgs/dimension.png);
+	background-position: center;
+	background-size: cover;
+
+	-webkit-perspective: 4000px;
+	-moz-perspective: 4000px;
+	-ms-perspective: 4000px;
+	-o-perspective: 4000px;
+	perspective: 4000px;
+
+	-webkit-perspective-origin: 50% 50%;
+	-moz-perspective-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-perspective-origin: 50% 50%;
+	-ms-perspective-origin: 50% 50%;
+	perspective-origin: 50% 50%;
+}
+caption, footer span, .pen, .tv, .utty {
+	display: none;
+}
+main {
+	height: 100%;
+}
+svg {
+	margin: auto;
+	display: block;
+	position: absolute;
+	top: 40px;
+	left:50%;
+	z-index: 95;
+
+	transform: translate(-58%);
+}
+.container {
+	height: 100%;
+	width: 100%;
+}
+.table_container {
+	width: 755px;
+
+	margin: auto;
+	position: relative;
+	z-index: 99;
+
+	-webkit-transform: rotate3d(13,10,-3, 75deg) scale(.5);
+	-moz-transform: rotate3d(13,10,-3, 75deg) scale(.5);
+	-ms-transform: rotate3d(13,10,-3, 75deg) scale(.5);
+	-o-transform: rotate3d(13,10,-3, 75deg) scale(.5);
+	transform: rotate3d(13,10,-3, 75deg) scale(.5);
+	
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-transition: all .7s ease;
+	-moz-transition: all .7s ease;
+	-ms-transition: all .7s ease;
+	-o-transition: all .7s ease;
+	transition: all .7s ease;
+
+	-webkit-animation: on 5s linear, lightOpacityChange2 .2s linear 4s infinite;
+	-moz-animation: on 5s linear, lightOpacityChange2 .2s linear 4s infinite;
+	-ms-animation: on 5s linear, lightOpacityChange2 .2s linear 4s infinite;
+	-o-animation: on 5s linear, lightOpacityChange2 .2s linear 4s infinite;
+	animation: on 5s linear, lightOpacityChange2 .2s linear 4s infinite;
+}
+td:not([colspan="5"]), th {
+	border-left: 5px solid transparent;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: linear-gradient(to left, #0ebfe9, transparent, #000, transparent); /* #5ff */
+}
+@keyframes on {
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+@keyframes lightOpacityChange2 {
+	from{opacity: 1}
+	to{opacity: .89}
+}
+@media only screen and (min-width: 3700px) {
+	body {
+		font-size: 5px;
+	}
+}

@@ -1,0 +1,24 @@
+#svg_3, #svg_7, #svg_8, #svg_9 {
+	-webkit-animation: on 4s linear, lightOpacityChange .2s linear 4s infinite;
+	-moz-animation: on 4s linear lightOpacityChange .2s linear 4s infinite;
+	-ms-animation: on 4s linear lightOpacityChange .2s linear 4s infinite;
+	-o-animation: on 4s linear lightOpacityChange .2s linear 4s infinite;
+	animation: on 4s linear, lightOpacityChange .2s linear 4s infinite;
+}
+svg {
+	
+
+/* -webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg); */
+}
+@keyframes on {
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+@keyframes lightOpacityChange {
+	from{opacity: 1}
+	to{opacity: .7}
+}

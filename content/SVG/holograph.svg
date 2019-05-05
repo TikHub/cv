@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="content/style/disc.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="780" height="470" xmlns="http://www.w3.org/2000/svg">       <!-- xmlns:svg="http://www.w3.org/2000/svg" -->
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <radialGradient id="svg_28" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#00ffff" offset="0.570313"/>
+   <stop stop-color="#aaffff" stop-opacity="0.996094" offset="0.902344"/>
+  </radialGradient>
+  <linearGradient id="svg_30" x1="0" y1="0" x2="0.015625" y2="0.863281" spreadMethod="pad">
+   <stop stop-color="#cccccc" offset="0.226563" stop-opacity="0.996094"/>
+   <stop stop-color="#000000" offset="0.6875"/>
+  </linearGradient>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_3_blur">
+   <feGaussianBlur stdDeviation="3" in="SourceGraphic"/>
+  </filter>
+  <linearGradient id="svg_13" x1="0" y1="0" x2="0.015625" y2="0.863281" spreadMethod="pad">
+   <stop stop-color="#007fff" offset="0.226563" stop-opacity="0.996094"/>
+   <stop stop-opacity="0.996094" stop-color="#aaffff" offset="0.761719"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="-1" y="-1" width="1143" height="575" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_2" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <ellipse transform="rotate(45 388.00000000000006,405.5) " fill="url(#svg_30)" stroke-width="0.5" cx="387.999999" cy="405.5" id="svg_1" rx="84.499999" ry="21.000001" stroke="#000"/>
+  <ellipse transform="rotate(45 387.9999999999999,400.00000000000006) " fill="url(#svg_28)" cx="387.999993" cy="400.000001" id="svg_9" rx="44.500003" ry="9.500001" stroke="#000"/>
+  <rect transform="rotate(72 578.9999999999999,356.00000000000006) " filter="url(#svg_3_blur)" rx="54" id="svg_3" height="390" width="10" y="151" x="561" stroke-opacity="null" stroke-width="0" stroke="#000" fill="url(#svg_13)"/>
+  <rect transform="rotate(13 415.0000000000006,258.49999999999994) " filter="url(#svg_3_blur)" rx="54" id="svg_7" height="277" width="10" y="120" x="410" stroke-opacity="null" stroke-width="0" stroke="#000" fill="url(#svg_13)"/>
+  <rect transform="rotate(37 495.9999999999998,330.0000000000001) " filter="url(#svg_3_blur)" rx="54" id="svg_8" height="200" width="10" y="240" x="451" stroke-opacity="null" stroke-width="0" stroke="#000" fill="url(#svg_13)"/>
+ </g>
+</svg>

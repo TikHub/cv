@@ -1,0 +1,39 @@
+body {
+	color: #fff;
+	font-family: verdana;
+	text-shadow: 0 -8px 7px #ad2000;
+
+	background-attachment: fixed;
+	background-image: url(../imgs/fire.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+}
+main {
+	margin: auto;
+}
+a {
+	color: #fff;
+}
+caption {
+	font-size: 30px;
+	letter-spacing: 10px;
+
+	padding-left: 15px;
+	margin: 60px 0;
+}
+caption, tbody th:nth-child(2), tfoot table tr th, tfoot table tr td:nth-of-type(1) {
+	text-align: left;
+}
+footer, .pen, .tv, .utty {
+	display: none;
+}
+td[colspan="5"] {
+	width: 100%;
+}
+tfoot table {
+	width: inherit;
+}
+@media only screen and (min-width: 3700px) {
+	
+}

@@ -1,0 +1,144 @@
+body {
+	font-family: cursive;
+		
+	background-attachment: fixed;
+	background-color: #B49375;
+	background-position: center;
+	background-size: cover;
+}	
+main {
+	width: 1100px;
+	
+	margin: auto;
+
+	background-color: #fff;
+}
+caption {		
+	color: #ef967b;
+	font-size: 2em;
+
+	margin: 5px 5px 30px 5px;
+}
+div[class="contact"] {
+	display: block;
+}
+header {
+	height: 85px;
+	width: 1100px;
+
+	background-image: url(../imgs/header1.jpg);
+		
+	margin: auto;
+}
+img {
+	height: 40px;
+	width: 40px;
+
+	margin-left: 10px;
+	margin-right: 10px;
+
+	-webkit-transition: transform 1s;
+	-moz-transition: transform 1s; 
+	-ms-transition: transform 1s; 
+	-o-transition: transform 1s; 
+	transition: transform 1s; 
+}
+a, span a {
+	color: #7b92ad;
+	text-decoration: none;
+}
+footer {
+	height: 55px;
+	width: 1100px;
+
+/* 	position: relative; */
+
+	background-color: #fff;
+
+	margin: auto;
+	padding-top: 50px;
+}
+span {
+	position: relative;
+
+	top: 0px;
+	left: 100px;
+}
+table, th, tr, td {
+	color: #7b92ad;
+
+	border: 1px solid #7b92ad;
+	border-spacing: 0;
+}
+table {
+	margin: auto;
+
+	/* position: relative; */
+}
+tfoot table tr:nth-child(1) th:nth-of-type(1) {
+	text-align: right;
+}
+img:hover {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.contact {
+	position: relative;
+
+	right: 70px;
+	bottom: 10px;
+
+	float: right;
+	display: block;
+}
+.pen {
+	height: 444px;
+	width: 159px;
+
+	position: absolute;
+	z-index: 2;
+
+	top: 28px;
+	right: 75px;
+
+	-webkit-transition: transform 1s;
+	-moz-transition: transform 1s;
+	-ms-transition: transform 1s;
+	-o-transition: transform 1s;
+	transition: transform 1s;
+}
+.pen:hover {
+	-webkit-transform: translateX(80px);
+	-moz-transform: translateX(80px);
+	-ms-transform: translateX(80px);
+	-o-transform: translateX(80px);
+	transform: translateX(80px);
+}
+.tv, .utty {
+	display: none;
+}
+@media only screen and (min-width: 3700px) {
+	caption {
+		left: 100px;
+	}
+	main {
+		height: 960px;
+		width: 1355px;
+	}
+	header, footer {
+		width: 1355px;
+	}	 
+	td {
+		width: 176px;
+	}
+	th, strong, .ogma {
+		font-size: 10px;
+		white-space: nowrap;
+	}
+	.pen {
+		left: 1090px;
+	}
+}

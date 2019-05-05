@@ -1,0 +1,9 @@
+table, th, td {
+	border: 1px solid #bbbbc7;  
+}
+[href^=tel], [href^=mailto] {
+	color: black;
+}
+footer, .pen, .tv, .utty {
+	display: none;
+}
